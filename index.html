@@ -1,0 +1,69 @@
+<div class="grower">
+    <p>Type/paste in values</p>
+          <div id="input-div" class="d-flex flex-wrap">
+            <textarea id="values" class="mb-2" maxlength="300"></textarea>
+            <p id="error-div">
+          </p>
+          <div class="w-100 d-flex justify-content-between">
+          <button class="btn btn-info" id="clear-btn">Clear</button>
+          <button class="btn btn-info" id="getStats">Get Stat Summary</button>
+          </div>
+          </div>
+  
+     <div id="results-div">
+      <h5 id="n" class="btn btn-light btn-block">n = <span id="answer-n"></span> : Click to <span id="view-hide">hide</span> sorted list</h5>
+      <p id="numb-array" class="text-center"></p>
+     <table class="table table-striped">
+        <tbody>
+
+        <tr>
+            <td class="tbl-label">Mean: </td>
+            <td id="answer-mean" class="answer-data"></td>
+        </tr>
+
+        <tr>
+            <td class="tbl-label">Standard Deviation: </td>
+            <td id="answer-stdev" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td class="tbl-label">Sample Standard Dev: </td>
+            <td id="answer-samp-stdev" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td class="tbl-label">min: </td>
+            <td id="answer-min" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td id="q1-label" class="tbl-label">Q<sub>1</sub>, Q<sub>1</sub>(R summ): </td>
+            <td id="answer-q1" class="answer-data"></td>
+        </tr>
+
+        <tr>
+            <td class="tbl-label">median: </td>
+            <td id="answer-median" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td id="q3-label" class="tbl-label">Q<sub>3</sub>, Q<sub>3</sub>(R summ): </td>
+            <td id="answer-q3" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td class="tbl-label">max: </td>
+            <td id="answer-max" class="answer-data"></td>
+        </tr>
+
+        <tr class="tr-expand">
+            <td id="iqr-label" class="tbl-label">IQR: </td>
+            <td id="answer-iqr" class="answer-data"></td>
+        </tr>
+
+        </tbody>
+      </table>
+  <button id="expand-but" class="btn btn-link">Less <i class="fa fa-chevron-up"></i></button>
+     </div>
+  
+      </div>
