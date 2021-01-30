@@ -1,5 +1,5 @@
 # Statistics Calculator
-This repository is to show the code to my stats calculator created in Spring of 2020.<br/>
+This repository shows the code to my stats calculator created in Spring of 2020.<br/>
 
 The Calculator is deployed here: [Stats Calc](https://projectym.net/statistics-summary-calculator/)
 
